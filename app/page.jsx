@@ -118,7 +118,7 @@ const App = () => {
   const [resetKey, setResetKey] = useState(0);
   const [showHowToUse, setShowHowToUse] = useState(false);
 
-  const linkedinUrl = "https://www.linkedin.com/in/sakis-athan-b240553a2";
+  const linkedinUrl = "https://www.linkedin.com/in/sakis-athan/";
 
   // Katharismos olon ton pedion (Hard Clear)
   const resetInputs = () => {
