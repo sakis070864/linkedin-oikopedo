@@ -208,25 +208,25 @@ const App = () => {
               <div className="flex gap-4">
                 <span className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-black shrink-0 shadow-lg shadow-blue-900/40">1</span>
                 <p className="text-sm leading-relaxed">
-                  <strong className="text-white">Epilekste Oikopedo:</strong> Dialekste ena apo ta deigmata (Benchmark Opportunities) sta aristera gia na gemisoun automata ta dedomena.
+                  <strong className="text-white">Select a Plot from the List:</strong> Select one of the examples in the "Benchmark Opportunities" section on the left to automatically populate the data, or enter your own.
                 </p>
               </div>
               <div className="flex gap-4">
                 <span className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-black shrink-0 shadow-lg shadow-blue-900/40">2</span>
                 <p className="text-sm leading-relaxed">
-                  <strong className="text-white">Allakste ta Noumera:</strong> Pirakste ta m2, ton syntelesti domisis h to kostos kataskeuhs gia na deite to <strong className="text-emerald-400">ROI</strong> na allazei se real-time.
+                  <strong className="text-white">Change the numbers:</strong> Change the numbers in the PARAMETERS section on the left side of the screen to see the <strong className="text-emerald-400">ROI</strong> update in real time.
                 </p>
               </div>
               <div className="flex gap-4">
                 <span className="w-8 h-8 bg-emerald-600 text-white rounded-full flex items-center justify-center font-black shrink-0 shadow-lg shadow-emerald-900/40">3</span>
                 <p className="text-sm leading-relaxed">
-                  <strong className="text-white">Run AI Audit:</strong> Patiste to prasino koumpi gia na ginei h pliris anallusi apo to AI kai na anoiksei o xartis.
+                  <strong className="text-white">Run AI Audit:</strong> Press the green " Generate AI Intelligence Report " button to view the AI-generated report. The report is currently short because this is a DEMO, but it can become much more detailed depending on your needs.
                 </p>
               </div>
               <div className="flex gap-4">
                 <span className="w-8 h-8 bg-red-600 text-white rounded-full flex items-center justify-center font-black shrink-0 shadow-lg shadow-red-900/40">4</span>
                 <p className="text-sm leading-relaxed">
-                  <strong className="text-white">Reset/Clear:</strong> Patiste to koumpi <strong className="text-red-400">CLEAR ALL</strong> gia να katharisoun ola ta pedia kai na balete dika sas stoixeia apo to miden.
+                  <strong className="text-white">Reset/Clear:</strong> Press the <strong className="text-red-400">CLEAR ALL</strong> button to clear all fields and enter your own data from scratch.
                 </p>
               </div>
             </div>
@@ -235,7 +235,7 @@ const App = () => {
               onClick={() => setShowHowToUse(false)}
               className="w-full mt-10 bg-blue-600 hover:bg-blue-500 py-4 rounded-2xl font-black text-sm uppercase tracking-widest text-white transition-all shadow-xl shadow-blue-900/40"
             >
-              Katalaba, pame!
+              Got it, let’s go!
             </button>
           </div>
         </div>
